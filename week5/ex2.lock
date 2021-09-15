@@ -1,0 +1,14 @@
+#!/bin/bash
+input="./file.txt"
+
+(
+
+flock -e 200
+for ((i=0; i < 5; i++))
+do
+tag=$( tail -n 1 $input)
+((tag++))
+echo $tag >> $input
+done
+
+) 200>>$input
