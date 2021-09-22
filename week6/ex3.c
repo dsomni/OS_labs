@@ -49,7 +49,7 @@ void fill_fields(struct Process processes[], int size, int quantum)
             if (process->complition_time!=-1){
                 continue;
             }else{
-                printf("%d %d %d %d\n", process->id, process->waiting_time, process->prev_preempt_time, time );
+                // printf("%d %d %d %d\n", process->id, process->waiting_time, process->prev_preempt_time, time );
                 process->waiting_time += time - process->prev_preempt_time;
                 if (process->remain_burst_time > quantum){
                     flag = 1;
