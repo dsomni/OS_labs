@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2663	    648	      8	   3319	    cf7	./ex2

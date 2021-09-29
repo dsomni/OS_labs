@@ -13,7 +13,7 @@ my_realloc_int(int* array, int new_size){
         {
             new_array[i] = array[i];
         }
-        free(array);
+        // free(array);
         array = new_array;
     }
 }
