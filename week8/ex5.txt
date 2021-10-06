@@ -1,0 +1,4 @@
+Physical address is an actual address on the device, it is physically determined and have
+one-to-one correspondence to real address cells on device.
+Virtual address can exceed maximum actual address on device. It is abstraction, and
+itself it is have no sense. To use it, we should map it and get physical address.

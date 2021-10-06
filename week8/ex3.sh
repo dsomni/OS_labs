@@ -1,0 +1,1 @@
+./ex2 & top -d 1 | grep ex2
