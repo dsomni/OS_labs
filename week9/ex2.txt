@@ -1,0 +1,9 @@
+Lets assume number of page frames is fixed. So fo ageing algorithm, we can increase
+number of hits if we arrange same pages closer to each other (and closer than number of bits
+used for counter). However, if we arrange same pages farther from each other,
+number of hits will decrease.
+
+You can run ex2i and ex2d to make sure about it.
+ex2i uses inputI.txt and ex2d uses inputD.txt
+There are the same datasets, but differently located.
+So ex2i demonstrate increasing of hits, while ex2d shows decreasing
