@@ -1,0 +1,7 @@
+-rw-rw-rw- 1 dsomni dsomni 14 Oct 20 14:05 _ex3.txt
+-rwxrw-rwx 1 dsomni dsomni 14 Oct 20 14:05 _ex3.txt
+-rwxrw-rwx 1 dsomni dsomni 14 Oct 20 14:05 _ex3.txt
+-rwxrwxrwx 1 dsomni dsomni 14 Oct 20 14:05 _ex3.txt
+660 - User and Group can only Read and Write; Others can do nothing
+775 - User and Group can do everything; Others can only Read and Execute
+777 - Everyone can do everything
