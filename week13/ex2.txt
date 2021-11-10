@@ -1,0 +1,32 @@
+Deadlocks Recovery
+**********************************************
+In such strategy we actually do not care about
+what we will have in the future, because we can
+kill or preempt very important process.
+And if we decide to choose process to kill or
+to be preempt in a runtime, it is going to
+be very time consuming.
+Maybe it would be suitable for the real-time 
+systems.
+
+Deadlocks Prevention
+**********************************************
+This strategy guarantees that we will not have
+deadlocks, if we will not use 4 conditions:
+Mutual Exclusion, Hold and wait, No Preemption
+and Circular Wait. However, it is usually
+very hard or even impossible to prevent this
+conditions.
+I think such strategy would be good for
+not complicated embedded systems.
+
+Deadlocks Avoidance
+***********************************************
+This strategy is a compromise between previous
+two. We can guarantee, that system will be
+always in the safe state, but should always
+check for deadlocks. This strategy is not
+so complicated, as Prevention, and
+not so time-consuming, as Recovery.
+This strategy is suitable for ordinary OS,
+like Windows and UNIX family.
